@@ -14,7 +14,7 @@ contract guessTheNumber {
         if(number == 1) {
             return message;
         } else {
-            return"Wrong, try again";
+            return"Wrong, guess again";
         }
         return message;
     }
